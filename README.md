@@ -25,5 +25,4 @@ Security functionality
 - GET /api/security/events (displays information about security events)
 
 2. Add the user authentication and authorization functionality to the service.
-
 3. Implement some requirements of security standards for the authentication procedure.
