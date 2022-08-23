@@ -5,24 +5,24 @@ Java version "17.0.3"
 
 Features implementation:
 
-- Develop and implement the API structure:
+Develop and implement the API structure:
 
 Authentication
-  POST api/auth/signup (allows the user to register on the service)
-  POST api/auth/changepass (changes a user password)
+-POST api/auth/signup (allows the user to register on the service)
+-POST api/auth/changepass (changes a user password)
 
 Business functionality
-  GET api/empl/payment (gives access to the employee's payrolls)
-  POST api/acct/payments (uploads payrolls)
-  PUT api/acct/payments (updates payment information)
+-GET api/empl/payment (gives access to the employee's payrolls)
+-POST api/acct/payments (uploads payrolls)
+-PUT api/acct/payments (updates payment information)
 
 Service functionality
-  PUT api/admin/user/role (changes user roles)
-  DELETE api/admin/user (deletes a user)
-  GET api/admin/user (displays information about all users)
+-PUT api/admin/user/role (changes user roles)
+-DELETE api/admin/user (deletes a user)
+-GET api/admin/user (displays information about all users)
 
 Security functionality
-  GET /api/security/events (displays information about security events)
+-GET /api/security/events (displays information about security events)
 
-- Add the user authentication and authorization functionality to the service.
-- Implement some requirements of security standards for the authentication procedure.
+Add the user authentication and authorization functionality to the service.
+Implement some requirements of security standards for the authentication procedure.
