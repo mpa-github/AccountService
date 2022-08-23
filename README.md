@@ -5,7 +5,7 @@ Java version "17.0.3"
 
 Features implementation:
 
-Develop and implement the API structure:
+Develop and implement the API structure.
 
 Authentication
 - POST api/auth/signup (allows the user to register on the service)
