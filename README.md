@@ -1,11 +1,12 @@
 # AccountService
 Education project to learn the basics of user authentication and authorization, and how to register security events, and get acquainted with various requirements, such as modern information security standards for web applications.
+The application stores information about employees payrolls and allows to manage it.
 
 Java version "17.0.3"
 
 Features implementation:
 
-Develop and implement the API structure.
+Developed and implemented the API structure.
 
 Authentication
 - POST api/auth/signup (allows the user to register on the service)
@@ -24,5 +25,5 @@ Service functionality
 Security functionality
 - GET /api/security/events (displays information about security events)
 
-Add the user authentication and authorization functionality to the service.
-Implement some requirements of security standards for the authentication procedure.
+Added the user authentication and authorization functionality to the service.
+Implemented some requirements of security standards for the authentication procedure.
